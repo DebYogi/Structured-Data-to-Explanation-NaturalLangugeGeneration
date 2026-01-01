@@ -1,0 +1,66 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# IPython/Jupyter
+.ipynb_checkpoints
+
+# Data / outputs / models
+outputs/
+notebooks/outputs/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+model/
+*.model
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local secrets
+*.pem
+*.key
+secrets.json
+
+# Temporary files
+*.tmp
+
+# GitHub Actions cache/folders
+.github/workflows/__pycache__/
+
+# Optional: virtualenv wrappers
+.python-version
+
+# Ignore egg-info left behind by builds
+table_to_text.egg-info/
