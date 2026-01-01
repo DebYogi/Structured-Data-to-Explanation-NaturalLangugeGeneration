@@ -1,0 +1,7 @@
+black==23.3.0
+flake8==6.0.0
+mypy==1.5.1
+yamllint==1.30.0
+papermill==2.5.1
+nbconvert==7.5.0
+pytest==7.4.0

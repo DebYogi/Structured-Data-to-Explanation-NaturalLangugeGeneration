@@ -1,0 +1,16 @@
+torch
+transformers
+datasets
+sentencepiece
+pandas
+numpy
+scikit-learn
+sacrebleu
+rouge-score
+pytest
+pyyaml
+matplotlib
+seaborn
+# Optional (recommended for faster GPU/distributed training)
+# accelerate
+# bitsandbytes (for 8-bit optimizers, if desired)

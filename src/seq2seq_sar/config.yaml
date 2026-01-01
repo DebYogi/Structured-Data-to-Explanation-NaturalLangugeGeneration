@@ -1,0 +1,20 @@
+# Configuration for data generation and EDA
+n_accounts: 50
+account_prefix: "ACC_"
+year: 2025
+month: 12
+tx_per_account_range: [5, 20]
+seed: 42
+high_value_threshold: 10000.0
+# Output paths (relative to project root)
+outputs:
+  data_dir: "outputs/data"
+  eda_dir: "outputs/eda"
+# Save serialized inputs/targets
+save_pairs: true
+pairs_sample_limit: 100
+# EDA options
+eda:
+  plot_amount_hist: true
+  plot_tx_types: true
+  plot_country_counts: true

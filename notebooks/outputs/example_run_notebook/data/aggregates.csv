@@ -1,0 +1,11 @@
+account_id,total_debit,total_credit,num_debit,num_credit,unique_creditors,unique_debtors,tx_types
+0001,9700.0,2096.79,2,1,0,0,"['ACH', 'card', 'wire']"
+0002,14648.46,21850.7,4,6,4,3,"['ACH', 'card', 'cash', 'crypto', 'wire']"
+0003,0.0,2904.92,0,2,0,1,"['card', 'crypto']"
+0004,3331.44,12535.92,2,3,0,2,"['ACH', 'card', 'cash', 'crypto']"
+0005,6874.42,0.0,2,0,2,0,"['card', 'cash']"
+0006,16658.18,9313.41,5,3,1,2,"['ACH', 'card', 'wire']"
+0007,6809.35,26437.25,3,5,1,2,"['card', 'cash', 'crypto', 'wire']"
+0008,12898.44,24556.37,3,5,0,3,"['card', 'cash', 'crypto']"
+0009,24924.53,5718.33,4,3,1,2,"['ACH', 'card', 'crypto', 'wire']"
+0010,19102.65,8236.98,2,2,1,2,"['ACH', 'cash', 'wire']"

@@ -1,0 +1,7 @@
+{
+  "n_transactions": 57,
+  "n_accounts": 10,
+  "amount_mean": 4010.493684210526,
+  "amount_median": 4104.49,
+  "alert_rate": 0.3684210526315789
+}

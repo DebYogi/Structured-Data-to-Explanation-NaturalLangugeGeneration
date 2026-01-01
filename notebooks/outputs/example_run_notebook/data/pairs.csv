@@ -1,0 +1,138 @@
+account_id,input,target
+0001,"ACCOUNT_ID=0001 | MONTH=2025-12 | TXN_1:, DATE=2025-12-21, debit, EUR 3842.15, wire, DEBTOR=CP_71481 | TXN_2:, DATE=2025-12-24, debit, EUR 5857.85, card, DEBTOR=CP_28259, ALERT=1, REASON=high_risk_country | TXN_3:, DATE=2025-12-31, credit, EUR 2096.79, ACH, CREDITOR=CP_22532 | AGGREGATES: | TOTAL_DEBIT=9700.0 | TOTAL_CREDIT=2096.79 | DEBIT_COUNT=2 | CREDIT_COUNT=1 | UNIQUE_CREDITORS=0 | UNIQUE_DEBTORS=0 | TXN_TYPES=ACH,card,wire","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0001
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-21, a debit of EUR 3,842.15 was executed via wire. The counterparty was a debtor (id: CP_71481).
+On 2025-12-24, a debit of EUR 5,857.85 was executed via card. The counterparty was a debtor (id: CP_28259). Alert reason: high_risk_country
+On 2025-12-31, a credit of EUR 2,096.79 was executed via ACH. The counterparty was a creditor (id: CP_22532).
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 9,700.00 and total credits amounted to 2,096.79. There were 2 debit transactions and 1 credit transactions. Unique creditors: 0; unique debtors: 0. Transactions observed: ACH, card, wire."
+0002,"ACCOUNT_ID=0002 | MONTH=2025-12 | TXN_1:, DATE=2025-12-04, debit, EUR 1500.8, wire, CREDITOR=CP_35240 | TXN_2:, DATE=2025-12-07, debit, EUR 3808.46, wire, CREDITOR=CP_83600 | TXN_3:, DATE=2025-12-10, debit, GBP 4469.93, cash, CREDITOR=CP_24985 | TXN_4:, DATE=2025-12-10, credit, GBP 1187.3, wire, CREDITOR=CP_28817, ALERT=1, REASON=high_risk_country | TXN_5:, DATE=2025-12-11, credit, GBP 12093.0, cash, CREDITOR=CP_44397, ALERT=1, REASON=high_value | TXN_6:, DATE=2025-12-17, credit, USD 4591.96, crypto, DEBTOR=CP_83459 | TXN_7:, DATE=2025-12-20, credit, EUR 1279.31, ACH, CREDITOR=CP_30503 | TXN_8:, DATE=2025-12-27, credit, USD 1726.68, crypto, DEBTOR=CP_21890, ALERT=1, REASON=high_risk_country | TXN_9:, DATE=2025-12-27, credit, EUR 972.45, wire, DEBTOR=CP_64110 | TXN_10:, DATE=2025-12-29, debit, USD 4869.27, card, CREDITOR=CP_67208 | AGGREGATES: | TOTAL_DEBIT=14648.46 | TOTAL_CREDIT=21850.7 | DEBIT_COUNT=4 | CREDIT_COUNT=6 | UNIQUE_CREDITORS=4 | UNIQUE_DEBTORS=3 | TXN_TYPES=ACH,card,cash,crypto,wire","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0002
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-04, a debit of EUR 1,500.80 was executed via wire. The counterparty was a creditor (id: CP_35240).
+On 2025-12-07, a debit of EUR 3,808.46 was executed via wire. The counterparty was a creditor (id: CP_83600).
+On 2025-12-10, a debit of GBP 4,469.93 was executed via cash. The counterparty was a creditor (id: CP_24985).
+On 2025-12-10, a credit of GBP 1,187.30 was executed via wire. The counterparty was a creditor (id: CP_28817). Alert reason: high_risk_country
+On 2025-12-11, a credit of GBP 12,093.00 was executed via cash. The counterparty was a creditor (id: CP_44397). Alert reason: high_value
+On 2025-12-17, a credit of USD 4,591.96 was executed via crypto. The counterparty was a debtor (id: CP_83459).
+On 2025-12-20, a credit of EUR 1,279.31 was executed via ACH. The counterparty was a creditor (id: CP_30503).
+On 2025-12-27, a credit of USD 1,726.68 was executed via crypto. The counterparty was a debtor (id: CP_21890). Alert reason: high_risk_country
+On 2025-12-27, a credit of EUR 972.45 was executed via wire. The counterparty was a debtor (id: CP_64110).
+On 2025-12-29, a debit of USD 4,869.27 was executed via card. The counterparty was a creditor (id: CP_67208).
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 14,648.46 and total credits amounted to 21,850.70. There were 4 debit transactions and 6 credit transactions. Unique creditors: 4; unique debtors: 3. Transactions observed: ACH, card, cash, crypto, wire."
+0003,"ACCOUNT_ID=0003 | MONTH=2025-12 | TXN_1:, DATE=2025-12-01, credit, USD 2337.29, crypto, DEBTOR=CP_80901 | TXN_2:, DATE=2025-12-23, credit, USD 567.63, card, CREDITOR=CP_52358 | AGGREGATES: | TOTAL_DEBIT=0.0 | TOTAL_CREDIT=2904.92 | DEBIT_COUNT=0 | CREDIT_COUNT=2 | UNIQUE_CREDITORS=0 | UNIQUE_DEBTORS=1 | TXN_TYPES=card,crypto","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0003
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-01, a credit of USD 2,337.29 was executed via crypto. The counterparty was a debtor (id: CP_80901).
+On 2025-12-23, a credit of USD 567.63 was executed via card. The counterparty was a creditor (id: CP_52358).
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 0.00 and total credits amounted to 2,904.92. There were 0 debit transactions and 2 credit transactions. Unique creditors: 0; unique debtors: 1. Transactions observed: card, crypto."
+0004,"ACCOUNT_ID=0004 | MONTH=2025-12 | TXN_1:, DATE=2025-12-02, credit, USD 6450.85, card, DEBTOR=CP_96256 | TXN_2:, DATE=2025-12-17, debit, USD 509.77, card, DEBTOR=CP_46109, ALERT=1, REASON=high_risk_country | TXN_3:, DATE=2025-12-23, credit, GBP 1471.75, crypto, DEBTOR=CP_24276 | TXN_4:, DATE=2025-12-26, credit, GBP 4613.32, cash, CREDITOR=CP_35294 | TXN_5:, DATE=2025-12-27, debit, EUR 2821.67, ACH, DEBTOR=CP_89301 | AGGREGATES: | TOTAL_DEBIT=3331.44 | TOTAL_CREDIT=12535.92 | DEBIT_COUNT=2 | CREDIT_COUNT=3 | UNIQUE_CREDITORS=0 | UNIQUE_DEBTORS=2 | TXN_TYPES=ACH,card,cash,crypto","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0004
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-02, a credit of USD 6,450.85 was executed via card. The counterparty was a debtor (id: CP_96256).
+On 2025-12-17, a debit of USD 509.77 was executed via card. The counterparty was a debtor (id: CP_46109). Alert reason: high_risk_country
+On 2025-12-23, a credit of GBP 1,471.75 was executed via crypto. The counterparty was a debtor (id: CP_24276).
+On 2025-12-26, a credit of GBP 4,613.32 was executed via cash. The counterparty was a creditor (id: CP_35294).
+On 2025-12-27, a debit of EUR 2,821.67 was executed via ACH. The counterparty was a debtor (id: CP_89301).
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 3,331.44 and total credits amounted to 12,535.92. There were 2 debit transactions and 3 credit transactions. Unique creditors: 0; unique debtors: 2. Transactions observed: ACH, card, cash, crypto."
+0005,"ACCOUNT_ID=0005 | MONTH=2025-12 | TXN_1:, DATE=2025-12-18, debit, USD 4407.85, card, CREDITOR=CP_41974, ALERT=1, REASON=high_risk_country | TXN_2:, DATE=2025-12-19, debit, GBP 2466.57, cash, CREDITOR=CP_27089, ALERT=1, REASON=high_risk_country | AGGREGATES: | TOTAL_DEBIT=6874.42 | TOTAL_CREDIT=0.0 | DEBIT_COUNT=2 | CREDIT_COUNT=0 | UNIQUE_CREDITORS=2 | UNIQUE_DEBTORS=0 | TXN_TYPES=card,cash","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0005
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-18, a debit of USD 4,407.85 was executed via card. The counterparty was a creditor (id: CP_41974). Alert reason: high_risk_country
+On 2025-12-19, a debit of GBP 2,466.57 was executed via cash. The counterparty was a creditor (id: CP_27089). Alert reason: high_risk_country
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 6,874.42 and total credits amounted to 0.00. There were 2 debit transactions and 0 credit transactions. Unique creditors: 2; unique debtors: 0. Transactions observed: card, cash."
+0006,"ACCOUNT_ID=0006 | MONTH=2025-12 | TXN_1:, DATE=2025-12-02, credit, EUR 184.42, ACH, DEBTOR=CP_16972, ALERT=1, REASON=high_risk_country | TXN_2:, DATE=2025-12-11, debit, EUR 1028.28, card, DEBTOR=CP_47059 | TXN_3:, DATE=2025-12-15, credit, USD 6873.13, wire, CREDITOR=CP_80828, ALERT=1, REASON=high_risk_country | TXN_4:, DATE=2025-12-15, debit, USD 1570.7, card, CREDITOR=CP_3036, ALERT=1, REASON=high_risk_country | TXN_5:, DATE=2025-12-20, debit, GBP 587.98, card, DEBTOR=CP_31299, ALERT=1, REASON=high_risk_country | TXN_6:, DATE=2025-12-21, credit, EUR 2255.86, card, DEBTOR=CP_89515 | TXN_7:, DATE=2025-12-26, debit, GBP 6049.33, ACH, DEBTOR=CP_8900 | TXN_8:, DATE=2025-12-28, debit, GBP 7421.89, wire, DEBTOR=CP_70944, ALERT=1, REASON=high_risk_country | AGGREGATES: | TOTAL_DEBIT=16658.18 | TOTAL_CREDIT=9313.41 | DEBIT_COUNT=5 | CREDIT_COUNT=3 | UNIQUE_CREDITORS=1 | UNIQUE_DEBTORS=2 | TXN_TYPES=ACH,card,wire","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0006
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-02, a credit of EUR 184.42 was executed via ACH. The counterparty was a debtor (id: CP_16972). Alert reason: high_risk_country
+On 2025-12-11, a debit of EUR 1,028.28 was executed via card. The counterparty was a debtor (id: CP_47059).
+On 2025-12-15, a credit of USD 6,873.13 was executed via wire. The counterparty was a creditor (id: CP_80828). Alert reason: high_risk_country
+On 2025-12-15, a debit of USD 1,570.70 was executed via card. The counterparty was a creditor (id: CP_3036). Alert reason: high_risk_country
+On 2025-12-20, a debit of GBP 587.98 was executed via card. The counterparty was a debtor (id: CP_31299). Alert reason: high_risk_country
+On 2025-12-21, a credit of EUR 2,255.86 was executed via card. The counterparty was a debtor (id: CP_89515).
+On 2025-12-26, a debit of GBP 6,049.33 was executed via ACH. The counterparty was a debtor (id: CP_8900).
+On 2025-12-28, a debit of GBP 7,421.89 was executed via wire. The counterparty was a debtor (id: CP_70944). Alert reason: high_risk_country
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 16,658.18 and total credits amounted to 9,313.41. There were 5 debit transactions and 3 credit transactions. Unique creditors: 1; unique debtors: 2. Transactions observed: ACH, card, wire."
+0007,"ACCOUNT_ID=0007 | MONTH=2025-12 | TXN_1:, DATE=2025-12-06, credit, GBP 2801.58, card, CREDITOR=CP_98434 | TXN_2:, DATE=2025-12-06, debit, EUR 1331.48, crypto, CREDITOR=CP_32418, ALERT=1, REASON=high_risk_country | TXN_3:, DATE=2025-12-10, credit, USD 4147.42, wire, CREDITOR=CP_62668 | TXN_4:, DATE=2025-12-13, credit, GBP 8738.83, crypto, DEBTOR=CP_13994, ALERT=1, REASON=high_risk_country | TXN_5:, DATE=2025-12-14, debit, USD 13.83, wire, DEBTOR=CP_40343 | TXN_6:, DATE=2025-12-19, debit, GBP 5464.04, wire, DEBTOR=CP_26040 | TXN_7:, DATE=2025-12-19, credit, GBP 9069.49, cash, DEBTOR=CP_2178 | TXN_8:, DATE=2025-12-23, credit, USD 1679.93, crypto, CREDITOR=CP_64033, ALERT=1, REASON=high_risk_country | AGGREGATES: | TOTAL_DEBIT=6809.35 | TOTAL_CREDIT=26437.25 | DEBIT_COUNT=3 | CREDIT_COUNT=5 | UNIQUE_CREDITORS=1 | UNIQUE_DEBTORS=2 | TXN_TYPES=card,cash,crypto,wire","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0007
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-06, a credit of GBP 2,801.58 was executed via card. The counterparty was a creditor (id: CP_98434).
+On 2025-12-06, a debit of EUR 1,331.48 was executed via crypto. The counterparty was a creditor (id: CP_32418). Alert reason: high_risk_country
+On 2025-12-10, a credit of USD 4,147.42 was executed via wire. The counterparty was a creditor (id: CP_62668).
+On 2025-12-13, a credit of GBP 8,738.83 was executed via crypto. The counterparty was a debtor (id: CP_13994). Alert reason: high_risk_country
+On 2025-12-14, a debit of USD 13.83 was executed via wire. The counterparty was a debtor (id: CP_40343).
+On 2025-12-19, a debit of GBP 5,464.04 was executed via wire. The counterparty was a debtor (id: CP_26040).
+On 2025-12-19, a credit of GBP 9,069.49 was executed via cash. The counterparty was a debtor (id: CP_2178).
+On 2025-12-23, a credit of USD 1,679.93 was executed via crypto. The counterparty was a creditor (id: CP_64033). Alert reason: high_risk_country
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 6,809.35 and total credits amounted to 26,437.25. There were 3 debit transactions and 5 credit transactions. Unique creditors: 1; unique debtors: 2. Transactions observed: card, cash, crypto, wire."
+0008,"ACCOUNT_ID=0008 | MONTH=2025-12 | TXN_1:, DATE=2025-12-10, credit, GBP 4332.76, cash, DEBTOR=CP_38301, ALERT=1, REASON=high_risk_country | TXN_2:, DATE=2025-12-11, credit, GBP 6653.17, cash, DEBTOR=CP_98658 | TXN_3:, DATE=2025-12-13, debit, GBP 6897.7, crypto, DEBTOR=CP_96525 | TXN_4:, DATE=2025-12-19, debit, USD 519.57, card, DEBTOR=CP_51361, ALERT=1, REASON=high_risk_country | TXN_5:, DATE=2025-12-20, credit, GBP 6053.11, cash, DEBTOR=CP_81334 | TXN_6:, DATE=2025-12-20, debit, EUR 5481.17, cash, DEBTOR=CP_23669 | TXN_7:, DATE=2025-12-20, credit, EUR 234.89, cash, CREDITOR=CP_33823 | TXN_8:, DATE=2025-12-24, credit, GBP 7282.44, cash, CREDITOR=CP_99566 | AGGREGATES: | TOTAL_DEBIT=12898.44 | TOTAL_CREDIT=24556.37 | DEBIT_COUNT=3 | CREDIT_COUNT=5 | UNIQUE_CREDITORS=0 | UNIQUE_DEBTORS=3 | TXN_TYPES=card,cash,crypto","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0008
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-10, a credit of GBP 4,332.76 was executed via cash. The counterparty was a debtor (id: CP_38301). Alert reason: high_risk_country
+On 2025-12-11, a credit of GBP 6,653.17 was executed via cash. The counterparty was a debtor (id: CP_98658).
+On 2025-12-13, a debit of GBP 6,897.70 was executed via crypto. The counterparty was a debtor (id: CP_96525).
+On 2025-12-19, a debit of USD 519.57 was executed via card. The counterparty was a debtor (id: CP_51361). Alert reason: high_risk_country
+On 2025-12-20, a credit of GBP 6,053.11 was executed via cash. The counterparty was a debtor (id: CP_81334).
+On 2025-12-20, a debit of EUR 5,481.17 was executed via cash. The counterparty was a debtor (id: CP_23669).
+On 2025-12-20, a credit of EUR 234.89 was executed via cash. The counterparty was a creditor (id: CP_33823).
+On 2025-12-24, a credit of GBP 7,282.44 was executed via cash. The counterparty was a creditor (id: CP_99566).
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 12,898.44 and total credits amounted to 24,556.37. There were 3 debit transactions and 5 credit transactions. Unique creditors: 0; unique debtors: 3. Transactions observed: card, cash, crypto."
+0009,"ACCOUNT_ID=0009 | MONTH=2025-12 | TXN_1:, DATE=2025-12-11, debit, GBP 5643.86, card, DEBTOR=CP_83627, ALERT=1, REASON=high_risk_country | TXN_2:, DATE=2025-12-12, credit, USD 312.33, ACH, DEBTOR=CP_95164 | TXN_3:, DATE=2025-12-13, credit, EUR 3654.96, crypto, CREDITOR=CP_4320, ALERT=1, REASON=high_risk_country | TXN_4:, DATE=2025-12-15, debit, GBP 9099.87, card, DEBTOR=CP_82683 | TXN_5:, DATE=2025-12-21, debit, GBP 5889.47, crypto, CREDITOR=CP_79294 | TXN_6:, DATE=2025-12-24, debit, USD 4291.33, wire, DEBTOR=CP_42723 | TXN_7:, DATE=2025-12-26, credit, EUR 1751.04, ACH, DEBTOR=CP_91658 | AGGREGATES: | TOTAL_DEBIT=24924.53 | TOTAL_CREDIT=5718.33 | DEBIT_COUNT=4 | CREDIT_COUNT=3 | UNIQUE_CREDITORS=1 | UNIQUE_DEBTORS=2 | TXN_TYPES=ACH,card,crypto,wire","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0009
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-11, a debit of GBP 5,643.86 was executed via card. The counterparty was a debtor (id: CP_83627). Alert reason: high_risk_country
+On 2025-12-12, a credit of USD 312.33 was executed via ACH. The counterparty was a debtor (id: CP_95164).
+On 2025-12-13, a credit of EUR 3,654.96 was executed via crypto. The counterparty was a creditor (id: CP_4320). Alert reason: high_risk_country
+On 2025-12-15, a debit of GBP 9,099.87 was executed via card. The counterparty was a debtor (id: CP_82683).
+On 2025-12-21, a debit of GBP 5,889.47 was executed via crypto. The counterparty was a creditor (id: CP_79294).
+On 2025-12-24, a debit of USD 4,291.33 was executed via wire. The counterparty was a debtor (id: CP_42723).
+On 2025-12-26, a credit of EUR 1,751.04 was executed via ACH. The counterparty was a debtor (id: CP_91658).
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 24,924.53 and total credits amounted to 5,718.33. There were 4 debit transactions and 3 credit transactions. Unique creditors: 1; unique debtors: 2. Transactions observed: ACH, card, crypto, wire."
+0010,"ACCOUNT_ID=0010 | MONTH=2025-12 | TXN_1:, DATE=2025-12-11, debit, USD 8649.97, cash, DEBTOR=CP_13668, ALERT=1, REASON=high_risk_country | TXN_2:, DATE=2025-12-16, credit, GBP 4104.49, wire, DEBTOR=CP_30116 | TXN_3:, DATE=2025-12-28, debit, EUR 10452.68, ACH, CREDITOR=CP_15744, ALERT=1, REASON=high_value,high_risk_country | TXN_4:, DATE=2025-12-31, credit, EUR 4132.49, ACH, DEBTOR=CP_15488 | AGGREGATES: | TOTAL_DEBIT=19102.65 | TOTAL_CREDIT=8236.98 | DEBIT_COUNT=2 | CREDIT_COUNT=2 | UNIQUE_CREDITORS=1 | UNIQUE_DEBTORS=2 | TXN_TYPES=ACH,cash,wire","SUSPICIOUS ACTIVITY REPORT
+
+Account ID: 0010
+
+PART 1: TRANSACTION DETAILS
+On 2025-12-11, a debit of USD 8,649.97 was executed via cash. The counterparty was a debtor (id: CP_13668). Alert reason: high_risk_country
+On 2025-12-16, a credit of GBP 4,104.49 was executed via wire. The counterparty was a debtor (id: CP_30116).
+On 2025-12-28, a debit of EUR 10,452.68 was executed via ACH. The counterparty was a creditor (id: CP_15744). Alert reason: high_value,high_risk_country
+On 2025-12-31, a credit of EUR 4,132.49 was executed via ACH. The counterparty was a debtor (id: CP_15488).
+
+PART 2: ACCOUNT SUMMARY
+During the reporting period, total debits amounted to 19,102.65 and total credits amounted to 8,236.98. There were 2 debit transactions and 2 credit transactions. Unique creditors: 1; unique debtors: 2. Transactions observed: ACH, cash, wire."
