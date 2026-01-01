@@ -32,9 +32,9 @@ Generated artifacts (data, models, pipeline JSON, EDA) are written to `outputs/`
 
 ## Notes
 - The repo is structured for local, deterministic runs — no external LLM APIs are used.
-- If you want help initializing git, preparing commits, or adding a CI fallback (PYTHONPATH-based test step), tell me and I can prepare exact commands or a small workflow change.
+
 
 ---
 
 
-If you'd like, I can add a short example command that runs a tiny end-to-end experiment and saves results to `outputs/example_run/` (train for 1 epoch on 100 synthetic accounts, infer 10 accounts, run trace checks and collate reports). Want me to add that? 
+
