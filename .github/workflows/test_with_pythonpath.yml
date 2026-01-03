@@ -1,0 +1,67 @@
+name: Test (PYTHONPATH fallback)
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: Test on Linux (PYTHONPATH fallback)
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+          # Try editable install; if it fails, proceed and use PYTHONPATH=src fallback for tests
+          pip install -e . || echo "Editable install failed; proceeding with PYTHONPATH=src fallback"
+
+      - name: Run tests (PYTHONPATH fallback)
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m pytest -q
+
+  windows-test:
+    name: Test on Windows (PYTHONPATH fallback)
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        shell: cmd
+        run: |
+          python -m pip install --upgrade pip
+          if exist requirements-dev.txt (pip install -r requirements-dev.txt)
+          pip install -e . || echo Editable install failed
+
+      - name: Run tests (PYTHONPATH fallback)
+        shell: cmd
+        run: |
+          set PYTHONPATH=src&& python -m pytest -q
