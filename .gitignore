@@ -63,3 +63,5 @@ secrets.json
 
 # Ignore egg-info left behind by builds
 table_to_text.egg-info/
+
+.qodo/
